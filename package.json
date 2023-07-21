@@ -1,0 +1,39 @@
+{
+  "name": "burc-yorum",
+  "version": "0.0.1",
+  "description": "Günlük/Haftalık/Aylık Burç Yorumları/Burç Özellikleri.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "burc",
+    "burç",
+    "burc-yorum",
+    "burç-yorum",
+    "zodiac",
+    "burclar",
+    "yorum",
+    "cheerio",
+    "axios",
+    "commonjs",
+    "esmodule"
+  ],
+  "author": {
+    "name": "Bes-js",
+    "url": "https://github.com/Bes-js"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bes-js/burc-yorum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bes-js/burc-yorum"
+  },
+  "homepage": "https://discord.gg/luppux",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
