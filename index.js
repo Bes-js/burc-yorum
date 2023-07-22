@@ -18,51 +18,51 @@ module.exports.daily = async (burc) => {
         if (burc.toLowerCase() == 'oğlak' || burc.toLowerCase() == 'oglak') {
             var res = await axios.get('https://www.hurriyet.com.tr/mahmure/astroloji/oglak-burcu/');
             var $ = cheerio.load(res.data);
-            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div > p:nth-child(2)`).text()}`
+            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div`).text()}`
         } else if (burc.toLowerCase() == 'koç' || burc.toLowerCase() == 'koc') {
             var res = await axios.get('https://www.hurriyet.com.tr/mahmure/astroloji/koc-burcu/');
             var $ = cheerio.load(res.data);
-            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div > p:nth-child(2)`).text()}`
+            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div`).text()}`
         } else if (burc.toLowerCase() == 'aslan') {
             var res = await axios.get('https://www.hurriyet.com.tr/mahmure/astroloji/aslan-burcu/');
             var $ = cheerio.load(res.data);
-            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div > p:nth-child(2)`).text()}`
+            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div`).text()}`
         }else if (burc.toLowerCase() == 'akrep') {
             var res = await axios.get('https://www.hurriyet.com.tr/mahmure/astroloji/akrep-burcu/');
             var $ = cheerio.load(res.data);
-            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div > p:nth-child(2)`).text()}`
+            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div`).text()}`
         }else if (burc.toLowerCase() == 'terazi' || burc.toLowerCase() == 'terazı') {
             var res = await axios.get('https://www.hurriyet.com.tr/mahmure/astroloji/terazi-burcu/');
             var $ = cheerio.load(res.data);
-            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div > p:nth-child(2)`).text()}`
+            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div`).text()}`
         }else if (burc.toLowerCase() == 'balık' || burc.toLowerCase() == 'balik') {
             var res = await axios.get('https://www.hurriyet.com.tr/mahmure/astroloji/balik-burcu/');
             var $ = cheerio.load(res.data);
-            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div > p:nth-child(2)`).text()}`
+            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div`).text()}`
         }else if (burc.toLowerCase() == 'boğa' || burc.toLowerCase() == 'boga') {
             var res = await axios.get('https://www.hurriyet.com.tr/mahmure/astroloji/boga-burcu/');
             var $ = cheerio.load(res.data);
-            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div > p:nth-child(2)`).text()}`
+            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div`).text()}`
         }else if (burc.toLowerCase() == 'kova') {
             var res = await axios.get('https://www.hurriyet.com.tr/mahmure/astroloji/kova-burcu/');
             var $ = cheerio.load(res.data);
-            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div > p:nth-child(2)`).text()}`
+            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div`).text()}`
         }else if (burc.toLowerCase() == 'basak' || burc.toLowerCase() == 'başak') {
             var res = await axios.get('https://www.hurriyet.com.tr/mahmure/astroloji/basak-burcu/');
             var $ = cheerio.load(res.data);
-            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div > p:nth-child(2)`).text()}`
+            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div`).text()}`
         }else if (burc.toLowerCase() == 'yay') {
             var res = await axios.get('https://www.hurriyet.com.tr/mahmure/astroloji/yay-burcu/');
             var $ = cheerio.load(res.data);
-            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div > p:nth-child(2)`).text()}`
+            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div`).text()}`
         }else if (burc.toLowerCase() == 'ikizler' || burc.toLowerCase() == 'ıkızler') {
             var res = await axios.get('https://www.hurriyet.com.tr/mahmure/astroloji/ikizler-burcu/');
             var $ = cheerio.load(res.data);
-            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div > p:nth-child(2)`).text()}`
+            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div`).text()}`
         }else if (burc.toLowerCase() == 'yengec' || burc.toLowerCase() == 'yengeç') {
             var res = await axios.get('https://www.hurriyet.com.tr/mahmure/astroloji/yengec-burcu/');
             var $ = cheerio.load(res.data);
-            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div > p:nth-child(2)`).text()}`
+            return `${$(`body > div > div:nth-child(2) > div > div > div.region-type-2.col-lg-8.col-md-12 > div > div.horoscope-detail-tab > div.horoscope-detail-content > div`).text()}`
         }else{return console.log("[burc-yorum] Girilen Değer Burçlar Arasında Bulunmuyor!")}
 
     } catch (err) {
